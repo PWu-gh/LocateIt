@@ -8,3 +8,5 @@ Launch with Xampp (Appache/MySQL):
   - setup the database : cd ./locateit/Data/
         then launch the files drop.sql conv.php and wiki_link
   - type localhost/locateit in browser
+
+demo: https://www.youtube.com/watch?v=u1RO4DPsHLE
