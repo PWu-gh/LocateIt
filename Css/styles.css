@@ -1,0 +1,121 @@
+.navbar {
+  min-height: 20px;
+  max-height: 41px;
+}
+
+
+.carouselFont {
+    height: 110px;
+
+}
+
+.carouselLigne {
+  height: 3px;
+  background-color: #3579d3;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 80px;
+  background-size: 100%, 100%;
+  
+
+}
+
+.centering { margin: auto; max-width: 850px;}
+
+.carousel-inner {
+  border-top: 2px;
+  border-left: 2px;
+  border-right: 2px;
+  border-bottom: 2px;
+  border-color:black;
+  border-style: solid;
+}
+.row {
+  margin-right: inherit;
+  margin-left: inherit;
+}
+
+.carousel{
+  max-height: 400px;
+  
+}
+.carousel-control {
+position: absolute;
+top: 50%; /* pushes the icon in the middle of the height */
+z-index: 5;
+display: inline-block;
+}
+
+.cus-beige {
+  background-color: #E9A95C;
+  height: 68px;
+  width: 100%;
+  border:2px solid rgb(221, 167, 101);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 15px;
+}
+
+
+.back-beige {
+  background-color: #F6DAB9;
+  width: 100%;
+  border-bottom: 1px solid rgb(173, 120, 56) ;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.marge > [class*='col-'] {
+  padding-right:1;
+  padding-left:0;
+  }
+
+#svg1, #svg2 ,#svg3 ,#svg4 ,#svg5{
+    padding:1px;
+    border:2px solid #021a40;
+    max-height: 100px;
+    height: 100%;
+    width: 100%;
+    margin-top: none;
+}
+
+#paysNom1,   #paysNom2,   #paysNom3,   #paysNom4,   #paysNom5{
+  margin: 0;
+}
+
+.b_menu {
+  background-color: #E9A95C;
+  border: 2px solid rgb(221, 167, 101);
+  color: black;
+  text-align: center;
+  text-decoration: bold;
+  display: inline-block;
+  padding: 12px 10px;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 170px;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #E9A95C;
+  border: 2px solid rgb(221, 167, 101);
+  color: black;
+  text-align: center;
+  text-decoration: bold;
+  display: inline-block;
+  padding: 15px 10px;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 170px;
+  margin-bottom: 15px;
+}
+
+table { width: 600px;
+  color: #52370F;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;}
+th {background-color: #52370F;color: #DCD6C3;}
+tr:nth-child(even) {background-color: #DCD6C3}
